@@ -2,8 +2,14 @@ package com.mastermind;
 
 import java.util.Objects;
 
+/**
+ * It's a class that hold information about color
+ */
 public class Color {
 
+    /**
+     * {@code colorLetter} describe color with it's first letter
+     */
     private final Character colorLetter;
 
     public Color(Character ch) {
